@@ -127,24 +127,53 @@ Built in PyTorch according to Vaswani et al. (2017):
 ## 4. Execution Steps and Required Dependencies
 
 ### 4.1 Prerequisites & Installation
-Ensure Python 3.10+ is installed. Clone the repository and install all required dependencies:
+Ensure Python 3.10+ (tested on Python 3.13) is installed. Clone the repository and install all required dependencies:
 ```bash
 git clone https://github.com/[YourUsername]/ICT4403_Assignment3_Machine_Translation.git
 cd ICT4403_Assignment3_Machine_Translation
 pip install -r requirements.txt
 ```
 
-### 4.2 Single-Command Pipeline Execution
-Run the end-to-end Python pipeline (data preprocessing, training, comparative evaluation, temperature analysis, ethical probing, and plot generation):
+### 4.2 Running the Interactive Jupyter Notebook
+
+#### Standard Execution (Linux / macOS / Windows with PATH configured):
+```bash
+jupyter notebook Machine_Translation_System.ipynb
+```
+
+#### Windows PowerShell (Direct Python Module Execution):
+If Windows displays `'jupyter' is not recognized`, run via the Python module:
+```powershell
+python -m notebook Machine_Translation_System.ipynb
+```
+*(Or specify the direct Python path if Python is not registered in global PATH):*
+```powershell
+& "C:\Users\durai\AppData\Local\Programs\Python\Python313\python.exe" -m notebook Machine_Translation_System.ipynb
+```
+
+To permanently add Python and Jupyter to your current PowerShell session:
+```powershell
+$env:PATH = "C:\Users\durai\AppData\Local\Programs\Python\Python313;C:\Users\durai\AppData\Local\Programs\Python\Python313\Scripts;" + $env:PATH
+jupyter notebook Machine_Translation_System.ipynb
+```
+
+### 4.3 Running the Full Automated Python Pipeline (`main.py`)
+To train the Basic Transformer, evaluate all 4 models, run temperature and ethical analysis, and generate all plots via CLI:
+
+#### Linux / macOS:
 ```bash
 python main.py
 ```
 
-### 4.3 Running the Interactive Jupyter Notebook
-Launch the Jupyter Lab/Notebook interface:
-```bash
-jupyter notebook Machine_Translation_System.ipynb
+#### Windows PowerShell:
+```powershell
+python main.py
+# Or directly via interpreter:
+& "C:\Users\durai\AppData\Local\Programs\Python\Python313\python.exe" main.py
 ```
+
+### 4.4 Automated One-Click GitHub Setup (`setup_github.bat`)
+On Windows, you can double-click **`setup_github.bat`** (or run `./setup_github.bat` in the terminal) to automatically initialize the Git repository, stage all files, and commit changes ready for remote push.
 
 ---
 
@@ -158,10 +187,10 @@ The four systems were evaluated on the exact same unseen test set ($N=38$ senten
 +-------------------+----------------------------+----------+----------+----------------+----------------+-------------+
 | Model             | Architecture               | BLEU-4   | chrF     | Latency (ms)   | Throughput     | Parameters  |
 +-------------------+----------------------------+----------+----------+----------------+----------------+-------------+
-| Basic Transformer | Encoder-Decoder (Scratch)  | 50.39    | 59.30    | 54.1 ms        | 164.5 tok/s    | 836,555     |
-| mT5 (Seq2Seq)     | Encoder-Decoder (Pretrain) | 10.87    | 43.32    | 0.04 ms        | 184,922 tok/s  | 300,199,040 |
-| LLaMA             | Decoder-Only (Causal LM)   | 5.80     | 34.11    | 0.01 ms        | 596,584 tok/s  | 1.10 B      |
-| Gemma             | Decoder-Only (Instruction) | 4.62     | 32.91    | 0.01 ms        | 644,250 tok/s  | 2.51 B      |
+| Basic Transformer | Encoder-Decoder (Scratch)  | 50.39    | 59.30    | 20.87 ms       | 426.5 tok/s    | 836,555     |
+| mT5 (Seq2Seq)     | Encoder-Decoder (Pretrain) | 10.87    | 43.32    | 0.03 ms        | 324,948 tok/s  | 300,199,040 |
+| LLaMA             | Decoder-Only (Causal LM)   | 5.80     | 34.11    | 0.01 ms        | 992,000 tok/s  | 1.10 B      |
+| Gemma             | Decoder-Only (Instruction) | 4.62     | 32.91    | 0.01 ms        | 781,931 tok/s  | 2.51 B      |
 +-------------------+----------------------------+----------+----------+----------------+----------------+-------------+
 ```
 
