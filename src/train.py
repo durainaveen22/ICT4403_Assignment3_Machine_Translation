@@ -114,7 +114,7 @@ def train_basic_transformer(
     }
 
     start_total_time = time.time()
-    print(f"\n[Training] Starting Basic Transformer Training on {device.upper()} for {num_epochs} Epochs...")
+    print(f"\n[Training] Starting Basic Transformer Training on {str(device).upper()} for {num_epochs} Epochs...")
 
     for epoch in range(1, num_epochs + 1):
         t0 = time.time()

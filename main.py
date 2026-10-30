@@ -42,7 +42,7 @@ def main():
     print("=" * 80, flush=True)
 
     device = "cuda" if torch.cuda.is_available() else "cpu"
-    print(f"\n[Hardware] Compute Device: {device.upper()}", flush=True)
+    print(f"\n[Hardware] Compute Device: {str(device).upper()}", flush=True)
 
     # 1. Dataset Preprocessing and Splitting
     print("\n" + "-" * 40, flush=True)
