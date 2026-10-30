@@ -346,6 +346,9 @@ for rec in ethical_data["synthesis"]["recommended_mitigation_measures"]:
 2. **Decoder-Only Versatility:** Decoder-only LLMs (LLaMA, Gemma) provide superior cultural idiom handling, contextual reasoning, and zero-shot versatility, but require vastly more compute and are susceptible to conversational drifting at high temperatures.
 3. **Temperature Calibration:** Translation systems must employ low temperatures ($T \\le 0.2$) in safety-critical, legal, and medical domains."""))
 
+    # Attach all cells to notebook
+    nb.cells = cells
+
     # Write notebook file
     with open(output_path, "w", encoding="utf-8") as f:
         nbf.write(nb, f)
