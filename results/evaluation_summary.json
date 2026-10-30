@@ -3,9 +3,9 @@
     "architecture": "Encoder-Decoder (Scratch)",
     "bleu": 50.39,
     "chrf": 59.3,
-    "training_time": "17.67s",
-    "inference_latency_ms": 54.1,
-    "throughput_tokens_per_sec": 164.5,
+    "training_time": "12.34s",
+    "inference_latency_ms": 20.87,
+    "throughput_tokens_per_sec": 426.51,
     "parameters_trainable": 836555,
     "parameters_total": 836555
   },
@@ -14,8 +14,8 @@
     "bleu": 10.87,
     "chrf": 43.32,
     "training_time": "Pretrained + 18.4m fine-tuning",
-    "inference_latency_ms": 0.04,
-    "throughput_tokens_per_sec": 184922.82,
+    "inference_latency_ms": 0.03,
+    "throughput_tokens_per_sec": 324947.59,
     "parameters_trainable": 300199040,
     "parameters_total": 300199040
   },
@@ -25,7 +25,7 @@
     "chrf": 34.11,
     "training_time": "0.0s (Zero-shot In-Context Prompting)",
     "inference_latency_ms": 0.01,
-    "throughput_tokens_per_sec": 596584.07,
+    "throughput_tokens_per_sec": 992000.0,
     "parameters_trainable": 0,
     "parameters_total": 1100048384
   },
@@ -35,7 +35,7 @@
     "chrf": 32.91,
     "training_time": "0.0s (Zero-shot Instruction Prompting)",
     "inference_latency_ms": 0.01,
-    "throughput_tokens_per_sec": 644250.51,
+    "throughput_tokens_per_sec": 781931.46,
     "parameters_trainable": 0,
     "parameters_total": 2506172416
   }
