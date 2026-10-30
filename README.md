@@ -129,7 +129,7 @@ Built in PyTorch according to Vaswani et al. (2017):
 ### 4.1 Prerequisites & Installation
 Ensure Python 3.10+ (tested on Python 3.13) is installed. Clone the repository and install all required dependencies:
 ```bash
-git clone https://github.com/[YourUsername]/ICT4403_Assignment3_Machine_Translation.git
+git clone https://github.com/durainaveen22/ICT4403_Assignment3_Machine_Translation.git
 cd ICT4403_Assignment3_Machine_Translation
 pip install -r requirements.txt
 ```
