@@ -1,0 +1,14 @@
+# Foundations of Generative AI (ICT4403) - Assignment 3
+# Neural Machine Translation Dependencies
+
+torch>=2.0.0
+nltk>=3.8.0
+matplotlib>=3.7.0
+pandas>=2.0.0
+numpy>=1.24.0
+python-docx>=1.0.0
+nbformat>=5.9.0
+tqdm>=4.66.0
+transformers>=4.38.0
+sentencepiece>=0.1.99
+sacrebleu>=2.4.0

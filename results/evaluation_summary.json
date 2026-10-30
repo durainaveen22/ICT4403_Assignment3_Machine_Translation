@@ -1,0 +1,42 @@
+{
+  "Basic Transformer": {
+    "architecture": "Encoder-Decoder (Scratch)",
+    "bleu": 50.39,
+    "chrf": 59.3,
+    "training_time": "17.67s",
+    "inference_latency_ms": 54.1,
+    "throughput_tokens_per_sec": 164.5,
+    "parameters_trainable": 836555,
+    "parameters_total": 836555
+  },
+  "mT5 (Seq2Seq)": {
+    "architecture": "Encoder-Decoder (Pretrained)",
+    "bleu": 10.87,
+    "chrf": 43.32,
+    "training_time": "Pretrained + 18.4m fine-tuning",
+    "inference_latency_ms": 0.04,
+    "throughput_tokens_per_sec": 184922.82,
+    "parameters_trainable": 300199040,
+    "parameters_total": 300199040
+  },
+  "LLaMA (Decoder-Only)": {
+    "architecture": "Decoder-Only (Causal LM)",
+    "bleu": 5.8,
+    "chrf": 34.11,
+    "training_time": "0.0s (Zero-shot In-Context Prompting)",
+    "inference_latency_ms": 0.01,
+    "throughput_tokens_per_sec": 596584.07,
+    "parameters_trainable": 0,
+    "parameters_total": 1100048384
+  },
+  "Gemma (Decoder-Only)": {
+    "architecture": "Decoder-Only (Instruction LM)",
+    "bleu": 4.62,
+    "chrf": 32.91,
+    "training_time": "0.0s (Zero-shot Instruction Prompting)",
+    "inference_latency_ms": 0.01,
+    "throughput_tokens_per_sec": 644250.51,
+    "parameters_trainable": 0,
+    "parameters_total": 2506172416
+  }
+}

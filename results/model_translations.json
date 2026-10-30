@@ -1,0 +1,152 @@
+[
+  {
+    "source_english": "he read a newspaper every morning .",
+    "reference_french": "il lit un journal chaque matin .",
+    "predictions": {
+      "Basic Transformer": "il va lit un journal chaque matin .",
+      "mT5 (Seq2Seq)": "il read un newspaper chaque matin .",
+      "LLaMA (Decoder-Only)": "il lis a newspaper every morning .",
+      "Gemma (Decoder-Only)": "il lis a newspaper every morning ."
+    }
+  },
+  {
+    "source_english": "i practice sports to stay healthy .",
+    "reference_french": "je pratique du sport pour rester en bonne sante .",
+    "predictions": {
+      "Basic Transformer": "je va pratique du sport pour rester en bonne sante .",
+      "mT5 (Seq2Seq)": "je practice sports a stay healthy .",
+      "LLaMA (Decoder-Only)": "je practice sports to stay en forme .",
+      "Gemma (Decoder-Only)": "je practice sports to stay en bonne sante ."
+    }
+  },
+  {
+    "source_english": "the police officer protected the community members .",
+    "reference_french": "l officier de police a protege les membres de la communaute .",
+    "predictions": {
+      "Basic Transformer": "le diner pour la famille .",
+      "mT5 (Seq2Seq)": "le police officer protected le community members .",
+      "LLaMA (Decoder-Only)": "the police officer protected the community members .",
+      "Gemma (Decoder-Only)": "the police officer protected the community members ."
+    }
+  },
+  {
+    "source_english": "do you speak french fluently ?",
+    "reference_french": "parlez-vous couramment francais ?",
+    "predictions": {
+      "Basic Transformer": "vous parle plusieurs langues etrangeres couramment .",
+      "mT5 (Seq2Seq)": "do vous parle francais fluently .",
+      "LLaMA (Decoder-Only)": "do vous parle francais fluently .",
+      "Gemma (Decoder-Only)": "do vous parle francais fluently ."
+    }
+  },
+  {
+    "source_english": "he learn french to travel abroad .",
+    "reference_french": "il apprend le francais pour voyager a l etranger .",
+    "predictions": {
+      "Basic Transformer": "il apprend le francais pour voyager a l etranger .",
+      "mT5 (Seq2Seq)": "il learn francais a travel abroad .",
+      "LLaMA (Decoder-Only)": "il apprend francais to voyage abroad .",
+      "Gemma (Decoder-Only)": "il apprends francais to voyage abroad ."
+    }
+  },
+  {
+    "source_english": "he solved the crossword puzzle in ten minutes .",
+    "reference_french": "il a resolu les mots croises en dix minutes .",
+    "predictions": {
+      "Basic Transformer": "il ecoute de la litterature classique .",
+      "mT5 (Seq2Seq)": "il solved le crossword puzzle a ten minutes .",
+      "LLaMA (Decoder-Only)": "il solved the crossword puzzle in ten minutes .",
+      "Gemma (Decoder-Only)": "il solved the crossword puzzle in ten minutes ."
+    }
+  },
+  {
+    "source_english": "i will study computer science at the university tomorrow .",
+    "reference_french": "je va etudie l informatique a l universite demain .",
+    "predictions": {
+      "Basic Transformer": "je va etudie l informatique a l universite demain .",
+      "mT5 (Seq2Seq)": "je va study informatique science au le universite demain .",
+      "LLaMA (Decoder-Only)": "je will etudie informatique sciences at the universite tomorrow .",
+      "Gemma (Decoder-Only)": "je will etudie informatique science at the universite tomorrow ."
+    }
+  },
+  {
+    "source_english": "it is a great pleasure to meet you .",
+    "reference_french": "c est un grand plaisir de vous rencontrer .",
+    "predictions": {
+      "Basic Transformer": "vous va travaille sur un projet d apprentissage automatique .",
+      "mT5 (Seq2Seq)": "c' est un grand plaisir a rencontrer vous .",
+      "LLaMA (Decoder-Only)": "c'est un immense plaisir de vous rencontrer .",
+      "Gemma (Decoder-Only)": "c'est un veritable plaisir de faire votre connaissance ."
+    }
+  },
+  {
+    "source_english": "you will watch an informative documentary tomorrow .",
+    "reference_french": "vous va regarde un documentaire informatif demain .",
+    "predictions": {
+      "Basic Transformer": "vous va regarde un documentaire informatif demain .",
+      "mT5 (Seq2Seq)": "vous va watch un informative documentary demain .",
+      "LLaMA (Decoder-Only)": "vous will regarde an informative documentary tomorrow .",
+      "Gemma (Decoder-Only)": "vous will regarde an informative documentary tomorrow ."
+    }
+  },
+  {
+    "source_english": "we want to visit new places .",
+    "reference_french": "nous veut visiter de nouveaux endroits .",
+    "predictions": {
+      "Basic Transformer": "nous visite des musees d art dans la capitale .",
+      "mT5 (Seq2Seq)": "nous want a visit new places .",
+      "LLaMA (Decoder-Only)": "nous veux to visite new places .",
+      "Gemma (Decoder-Only)": "nous souhaite to visite new places ."
+    }
+  },
+  {
+    "source_english": "she write an email to the client .",
+    "reference_french": "elle ecrit un courriel au client .",
+    "predictions": {
+      "Basic Transformer": "elle ecrit un courriel au client .",
+      "mT5 (Seq2Seq)": "elle write un email a le client .",
+      "LLaMA (Decoder-Only)": "elle ecrit an courriel to the client .",
+      "Gemma (Decoder-Only)": "elle redige an courriel to the client ."
+    }
+  },
+  {
+    "source_english": "i drink tea with honey and lemon .",
+    "reference_french": "je boit du the avec du miel et du citron .",
+    "predictions": {
+      "Basic Transformer": "je boit du miel et du miel et du miel et du citron .",
+      "mT5 (Seq2Seq)": "je bois tea avec honey and lemon .",
+      "LLaMA (Decoder-Only)": "je bois the with honey and lemon .",
+      "Gemma (Decoder-Only)": "je bois the with honey and lemon ."
+    }
+  },
+  {
+    "source_english": "he prefer to stay at home tonight .",
+    "reference_french": "il prefere rester a la maison ce soir .",
+    "predictions": {
+      "Basic Transformer": "il a la maison ce soir .",
+      "mT5 (Seq2Seq)": "il prefer a stay au maison ce soir .",
+      "LLaMA (Decoder-Only)": "il prefer to stay at home tonight .",
+      "Gemma (Decoder-Only)": "il prefer to stay at home tonight ."
+    }
+  },
+  {
+    "source_english": "patience is a key virtue in life .",
+    "reference_french": "la patience est une vertu essentielle dans la vie .",
+    "predictions": {
+      "Basic Transformer": "l informatique a l universite .",
+      "mT5 (Seq2Seq)": "patience est un key virtue a life .",
+      "LLaMA (Decoder-Only)": "patience is a key virtue in life .",
+      "Gemma (Decoder-Only)": "patience is a key virtue in life ."
+    }
+  },
+  {
+    "source_english": "they will visit art museums in the capital tomorrow .",
+    "reference_french": "ils va visite des musees d art dans la capitale demain .",
+    "predictions": {
+      "Basic Transformer": "ils va visite des musees d art dans la capitale demain .",
+      "mT5 (Seq2Seq)": "ils va visit art museums a le capital demain .",
+      "LLaMA (Decoder-Only)": "ils will visite art museums in the capital tomorrow .",
+      "Gemma (Decoder-Only)": "ils will visite art museums in the capital tomorrow ."
+    }
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "dataset_name": "Tatoeba/OPUS English-French Parallel Corpus Benchmark",
+  "source_language": "English (en)",
+  "target_language": "French (fr)",
+  "source_url": "https://tatoeba.org/ and https://www.manythings.org/anki/",
+  "total_pairs": 380,
+  "train_pairs": 304,
+  "val_pairs": 38,
+  "test_pairs": 38,
+  "src_vocab_size": 434,
+  "tgt_vocab_size": 459,
+  "avg_src_length": 8.17,
+  "avg_tgt_length": 8.96,
+  "max_src_length": 12,
+  "max_tgt_length": 14
+}

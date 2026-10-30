@@ -1,0 +1,106 @@
+{
+  "Basic Transformer": {
+    "T_0.2": {
+      "temperature": 0.2,
+      "bleu": 50.39,
+      "chrf": 59.3,
+      "distinct_1": 0.2577,
+      "distinct_2": 0.4702,
+      "sample_output": "il va lit un journal chaque matin ."
+    },
+    "T_0.7": {
+      "temperature": 0.7,
+      "bleu": 26.03,
+      "chrf": 38.41,
+      "distinct_1": 0.3264,
+      "distinct_2": 0.636,
+      "sample_output": "il chaque matin ."
+    },
+    "T_1.2": {
+      "temperature": 1.2,
+      "bleu": 3.89,
+      "chrf": 19.74,
+      "distinct_1": 0.5084,
+      "distinct_2": 0.9436,
+      "sample_output": "il film a cent . je est ordinateurs quand delicieux la pouvez-vous d va rend essentielle europe ."
+    }
+  },
+  "mT5 (Seq2Seq)": {
+    "T_0.2": {
+      "temperature": 0.2,
+      "bleu": 10.87,
+      "chrf": 43.32,
+      "distinct_1": 0.4349,
+      "distinct_2": 0.7617,
+      "sample_output": "il read un newspaper chaque matin ."
+    },
+    "T_0.7": {
+      "temperature": 0.7,
+      "bleu": 10.87,
+      "chrf": 43.32,
+      "distinct_1": 0.4349,
+      "distinct_2": 0.7617,
+      "sample_output": "il read un newspaper chaque matin ."
+    },
+    "T_1.2": {
+      "temperature": 1.2,
+      "bleu": 5.13,
+      "chrf": 42.68,
+      "distinct_1": 0.3019,
+      "distinct_2": 0.5012,
+      "sample_output": "il read un newspaper chaque matin et vraiment tres precisement ."
+    }
+  },
+  "LLaMA (Decoder-Only)": {
+    "T_0.2": {
+      "temperature": 0.2,
+      "bleu": 5.8,
+      "chrf": 34.11,
+      "distinct_1": 0.454,
+      "distinct_2": 0.7726,
+      "sample_output": "il lis a newspaper every morning ."
+    },
+    "T_0.7": {
+      "temperature": 0.7,
+      "bleu": 5.8,
+      "chrf": 34.11,
+      "distinct_1": 0.454,
+      "distinct_2": 0.7726,
+      "sample_output": "il lis a newspaper every morning ."
+    },
+    "T_1.2": {
+      "temperature": 1.2,
+      "bleu": 3.44,
+      "chrf": 36.07,
+      "distinct_1": 0.3033,
+      "distinct_2": 0.4778,
+      "sample_output": "il lis a newspaper every morning et sans aucun doute possible ."
+    }
+  },
+  "Gemma (Decoder-Only)": {
+    "T_0.2": {
+      "temperature": 0.2,
+      "bleu": 4.62,
+      "chrf": 32.91,
+      "distinct_1": 0.4654,
+      "distinct_2": 0.7714,
+      "sample_output": "il lis a newspaper every morning ."
+    },
+    "T_0.7": {
+      "temperature": 0.7,
+      "bleu": 4.62,
+      "chrf": 32.91,
+      "distinct_1": 0.4654,
+      "distinct_2": 0.7714,
+      "sample_output": "il lis a newspaper every morning ."
+    },
+    "T_1.2": {
+      "temperature": 1.2,
+      "bleu": 2.38,
+      "chrf": 35.53,
+      "distinct_1": 0.2857,
+      "distinct_2": 0.4488,
+      "sample_output": "il lis a newspaper every morning de maniere tout a fait explicite ."
+    }
+  }
+}
